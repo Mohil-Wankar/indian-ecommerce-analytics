@@ -1,4 +1,19 @@
-# Indian E-Commerce Analytics using PostgreSQL
+# 🛒 Indian E-Commerce Analytics Platform
+
+### End-to-End SQL Data Analytics Project using PostgreSQL
+
+A complete business analytics project built from scratch using PostgreSQL, featuring database design, synthetic data generation, KPI reporting, customer segmentation, revenue analysis, window functions, and data quality validation.
+
+<div align="center">
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-18-336791?style=for-the-badge&logo=postgresql)
+![SQL](https://img.shields.io/badge/SQL-Analytics-blue?style=for-the-badge)
+![Data Analytics](https://img.shields.io/badge/Data-Analytics-success?style=for-the-badge)
+![Window Functions](https://img.shields.io/badge/Window-Functions-orange?style=for-the-badge)
+![Business Intelligence](https://img.shields.io/badge/Business-Intelligence-purple?style=for-the-badge)
+![License](https://img.shields.io/badge/Portfolio-Project-green?style=for-the-badge)
+
+</div>
 
 ## Project Overview
 
