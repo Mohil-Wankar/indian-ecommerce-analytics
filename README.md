@@ -15,7 +15,16 @@ The project spans the full analyst pipeline:
 - Business KPI reporting
 
 ---
+## Project Highlights
 
+- Designed a relational PostgreSQL database from scratch
+- Generated a synthetic e-commerce dataset entirely using SQL
+- Analyzed 1000 customers, 5000 orders, and 10000 order items
+- Performed revenue, customer, product, and monthly trend analysis
+- Applied Window Functions including ROW_NUMBER(), RANK(), DENSE_RANK(), and PARTITION BY
+- Identified and documented data-quality issues affecting KPI calculations
+
+--- 
 ## Database Schema
 
 The database is structured around four core tables:
