@@ -55,9 +55,49 @@ The database is structured around four core tables:
 The relationships flow in one direction:
 
 ```
-Customers → Orders → Order Items → Products
-```
 
+Customers → Orders → Order Items → Products
+
+```
+## Entity Relationship Diagram
+
+```mermaid
+erDiagram
+
+CUSTOMERS ||--o{ ORDERS : places
+ORDERS ||--o{ ORDER_ITEMS : contains
+PRODUCTS ||--o{ ORDER_ITEMS : purchased_in
+
+CUSTOMERS {
+    int customer_id
+    string customer_name
+    string email
+    string city
+    string state
+    date signup_date
+}
+
+ORDERS {
+    int order_id
+    int customer_id
+    date order_date
+    string payment_method
+}
+
+PRODUCTS {
+    int product_id
+    string product_name
+    string category
+    decimal price
+}
+
+ORDER_ITEMS {
+    int order_item_id
+    int order_id
+    int product_id
+    int quantity
+}
+```
 ---
 
 ## Dataset Scale
